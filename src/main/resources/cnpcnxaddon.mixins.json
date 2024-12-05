@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.nxkoo.cnpcnxaddon.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cnpcnxaddon.refmap.json",
+  "mixins": [
+    "impl.MixinPlayerWrapper"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
